@@ -1,0 +1,47 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  background-color: #2d2926ff;
+  height: 200px;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  width: 70%;
+}
+
+.con {
+  margin-left: 90px;
+  margin-right: 50px;
+  width: 100%;
+  justify-content: center;
+}
+
+.social > ul > li {
+  list-style: none;
+}
+
+.social > ul > li > a,
+.mail > h3 > a {
+  text-decoration: none;
+  color: azure;
+  font-size: 12px;
+}
+
+.con > h2 {
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  width: 100px;
+  padding-bottom: 5px;
+  border-bottom: 2px black solid;
+  color: aliceblue;
+  letter-spacing: 3px;
+}
+
+.con > h3 {
+  font-weight: lighter;
+  color: azure;
+  font-size: 12px;
+}

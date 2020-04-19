@@ -1,0 +1,76 @@
+.myworks {
+  height: 350px;
+  width: 100%;
+  margin: auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #2d2926ff;
+}
+
+.one {
+  background: url(../Images/Evaluation-3.jpg) no-repeat center;
+}
+
+.two {
+  background: url(../Images/PROFILE.jpg) no-repeat center;
+}
+
+.three {
+  background: url(../Images/LineArt.jpg) no-repeat center;
+}
+
+.four {
+  background: url(../Images/Planet.jpg) no-repeat center;
+}
+
+.five {
+  background: url(../Images/James.jpg) no-repeat center;
+}
+
+.six {
+  background: url(../Images/Logan.jpg) no-repeat center;
+}
+
+.pic {
+  margin: 10px;
+  position: relative;
+  height: 70%;
+  width: 70%;
+  background-size: contain;
+  transition: transform 0.2s;
+  transform: translateY(20%);
+}
+
+.one:hover {
+  transform: scale(1.2);
+}
+
+.two:hover {
+  transform: scale(1.2);
+}
+
+.three:hover {
+  transform: scale(1.2);
+}
+
+.four:hover {
+  transform: scale(1.2);
+}
+
+.five:hover {
+  transform: scale(1.2);
+}
+
+.six:hover {
+  transform: scale(1.2);
+}
+
+.works-title {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  font-size: 64px;
+}

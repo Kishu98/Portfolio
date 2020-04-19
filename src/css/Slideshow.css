@@ -1,0 +1,12 @@
+.slide-container {
+  width: 70%;
+  margin: auto;
+}
+
+.each-slide > div {
+  background-size: contain;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+}

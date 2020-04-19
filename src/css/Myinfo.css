@@ -1,0 +1,24 @@
+.full {
+  border: 10px whitesmoke solid;
+  width: 30%;
+  height: auto;
+  margin: 10px;
+  float: right;
+}
+
+.main-info {
+  border: 3px brown solid;
+  margin: 3px;
+  margin-top: -3px;
+  margin-right: -3px;
+  width: auto;
+  height: auto;
+  float: right;
+  padding: 5px;
+}
+
+.main-info h3 {
+  clear: both;
+  font-size: 13px;
+  float: left;
+}

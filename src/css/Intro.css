@@ -1,0 +1,53 @@
+.name {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 700px;
+  font-family: Montserrat;
+  background: black;
+  display: flex;
+  color: aliceblue;
+  overflow: hidden;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  height: 350px;
+  padding-left: 20px;
+  border-left: 2px white solid;
+}
+
+.trans {
+  width: 40%;
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  animation: comeleft 1s ease-in-out;
+}
+
+.content {
+  position: relative;
+  font-size: 24px;
+}
+
+.content > .trans > h1 {
+  width: 1000px;
+  font-size: 128px;
+  transform: translateX(-7.7%);
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+@keyframes comeleft {
+  0% {
+    opacity: 0;
+    left: 1%;
+  }
+
+  100% {
+    left: 3%;
+  }
+}

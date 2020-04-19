@@ -1,0 +1,56 @@
+* {
+  font-family: montserrat;
+}
+.skills {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+.topics {
+  display: flex;
+  font-size: 20px;
+  width: 60%;
+  margin-left: 100px;
+  line-height: 1.6;
+}
+
+.skills-title {
+  font-size: 48px;
+  width: 30%;
+  padding-top: 90px;
+  border-right: 2px black solid;
+  height: 80%;
+  box-sizing: border-box;
+}
+
+.skills-rating {
+  margin-left: 150px;
+}
+
+.rank {
+  font-size: 40px;
+  margin: 50px 20px 50px 20px;
+}
+
+.dash {
+  padding-left: 50px;
+}
+
+.button-rank {
+  display: flex;
+  justify-content: center;
+  border: 1px #53868b solid;
+  transform: translate(10%, 20%);
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.button-rank:hover {
+  background-color: #53868b;
+}
